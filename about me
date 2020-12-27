@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<table border="1"
+<caption>About me--109306064</caption>
+<thead>
+<tr>
+  <th rowspan="3">
+   <img scr="Personal photo.JPG" alt="Personal photo.JPG"width="200" height="200">
+  </th>
+  <th colspan="2">
+  	<form action="/action_page.php" method="post">
+  		<label for="Name">Name:</label>
+  		<input type="text" name="Name"><br><br>
+  		Gender:
+  		<input type="radio" id="gender1" name="gender" value="Male" checked>
+  		<label for="gender1">Male</label>
+  		<input type="radio" id="gender1" name="gender" value="Female" checked>
+  		<label for="gender1">Female</label>
+  		<input type="radio" id="gender1" name="gender" value="Other" checked>
+  		<label for="gender1">Other</label> 		
+  </th>
+</tr>
+ <th>
+ 	Country:
+ 	<form action="/action_page.php">
+    <label for="Country"></label>
+        <select name="Country" id="Country">
+	    <option value="Taipei">Taipei</option>
+	    <option value="taichung">Taichung</option>
+	    <option value="kaohsiung">Kaohsiung</option>
+        <br><br>
+    </select>
+</form>
+</th>
+    <th>Birthday:<input type="text" name="birth">
+</th>
+<tr>
+	<th>Email:<input type="text"name="email">
+	</th>
+
+  </thead>
+  <tbody>
+  	<tr>
+  		<th>Hobby
+  			 <th colspan="1">
+  		<input type="checkbox" id="hobby1" name="hobby1" value="Swimming">
+  		<label for="hobby1">Swimming</label>
+  		<input type="checkbox" id="hobby2" name="hobby2" value="Volleyball">
+  		<label for="hobby2">Volleyball</label>
+  		<input type="checkbox" id="hobby3" name="hobby3" value="Movie">
+  		<label for="hobby3">Movie</label>
+  		<input type="checkbox" id="hobby4" name="hobby4" value="Games">
+  		<label for="hobby4">Games</label>
+  		<input type="checkbox" id="hobby5" name="hobby5" value="Sleeping">
+  		<label for="hobby5">Sleeping</label>
+  	</th>
+</tr>
+  </tbody>
+  <tr>
+  	<th>Skill
+  		 <th colspan="1">
+  		<input type="checkbox" id="skill1" name="skill1" value="Java">
+  		<label for="skill1">Java</label>
+  		<input type="checkbox" id="skill2" name="skill2" value="HTML">
+  		<label for="skill2">HTML</label>
+  		<input type="checkbox" id="skill3" name="skill3" value="Python">
+  		<label for="skill3">Python</label>
+  		<input type="checkbox" id="skill4" name="skill4" value="Microsoft Office">
+  		<label for="skill4">Microsoft Office</label>
+  		<input type="checkbox" id="skill5" name="skill5" value="Adobe Premiere">
+  		<label for="skill 5">Adobe Premiere</label>
+  	</th>
+<tbody>
+  	<tr>
+  		<th>Say Something
+  			<th colspan="1">
+  			<label for="saysomething"></label>
+  			<textarea id="saysomething" name="saysomething" rows="6" cols="50">
+Say something here.
+  			</textarea><br>
+  			<input type="submit" value="Submit">
+  			<input type="reset" value="Reset">
+  		</form>
+
+  		</th>
+  		
+</tr>
+</body>
+</html>
